@@ -36,6 +36,7 @@ export default{
     span{
         font-size: 50px;
         text-transform: uppercase;
+        // animazione
         animation: growup 2s linear infinite ;
         @keyframes growup{
             0%{

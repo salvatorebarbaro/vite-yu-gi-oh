@@ -35,6 +35,7 @@ export default{
 
 <template>
   <div class="container" id="contenitore_generale">
+    <!-- v-if="! store.cards.length>0" condizione che fa vedere loader se lunghezza è maggiore di 0 non si vede il loader -->
     <loader v-if="! store.cards.length>0"></loader>
     <AppCardslist></AppCardslist>
   </div>

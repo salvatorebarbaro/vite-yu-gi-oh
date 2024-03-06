@@ -17,6 +17,7 @@ export default{
 
 <template>
   <li id="card">
+    <!-- abbiamo ricercato dinamicamente gli elementi -->
     <img :src="card.card_images[0].image_url_small" :alt="card.name">
     <strong>{{ card.name }}</strong>
     <span>{{ card.archetype }}</span>
