@@ -4,4 +4,10 @@ export const store = reactive({
     // oggetto inserito qui è come se fosse un dato condiviso tra tutti gli oggetti
     // in questo caso avremo cards che è l'array vuoto delle nostre carte
     cards:[],
+
+    archetypes:[],
+
+    filterValue: '',
+    numbersOfCards:null,
+
 })

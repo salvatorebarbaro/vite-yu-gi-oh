@@ -35,6 +35,8 @@ export default{
   background-color: #D48F38;
   width: calc(100% / 6 - $gap / 6 * 5);
   padding: 8px;
+  border: 1.5px solid black;
+  border-radius: 15px;
   
   img{
     width: 100%;
